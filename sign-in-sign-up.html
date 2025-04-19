@@ -1,0 +1,36 @@
+<!-- sign-in-sign-up.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign In / Sign Up</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="auth.css">
+
+  <!-- <style>
+    body { font-family: Arial; display: flex; justify-content: center; align-items: center; height: 100vh; background: #f0f0f0; }
+    .box { background: white; padding: 20px 30px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+    input { display: block; margin: 10px 0; padding: 8px; width: 100%; }
+    button { padding: 10px 15px; margin: 10px 5px 0 0; }
+  </style> -->
+</head>
+<body>
+    
+  <div class="box">
+    <h2>Sign In</h2>
+    <input type="text" id="signin-username" placeholder="Username">
+    <input type="password" id="signin-password" placeholder="Password">
+    <button onclick="signIn()">Sign In</button>
+
+    <h2>Sign Up</h2>
+    <input type="text" id="signup-username" placeholder="New Username">
+    <input type="password" id="signup-password" placeholder="New Password">
+    <button onclick="signUp()">Sign Up</button>
+
+    <p id="message"></p>
+  </div>
+
+  <script src="auth.js"></script>
+</body>
+</html>
