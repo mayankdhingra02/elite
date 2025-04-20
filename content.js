@@ -5,14 +5,15 @@ const products = [
   {
     id: 1,
     name: "Max 270",
-    preview: "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSzFOi0sPHeP8Qfhssj91KdPyl_CDg3mgwAS88nCTRFYN7hjW6fS4rQdpj4iPb_x0REJrhh2sm1g43o4LReFgnYtxFisACOPwVNRuywPHTJeNaD4CNOe5RcsA",
+    preview: "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQpzVE9-ZfvD5jVDfz-Fs9hDFDIgQiTIk8GKEltjGM_H8kzfpgWSxQ0s38y0GzcVC94qKW5XlaXmGfuyikElKNAgo79xFZ9MXkkRCKhpy0u3oypYR1I9gzxc_s",
     photos: [
-      "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSzFOi0sPHeP8Qfhssj91KdPyl_CDg3mgwAS88nCTRFYN7hjW6fS4rQdpj4iPb_x0REJrhh2sm1g43o4LReFgnYtxFisACOPwVNRuywPHTJeNaD4CNOe5RcsA",
-      "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRegE3OVi0q9OzQl4FO9g8kFm5g_Hr1ypVCuVBXMyicsTAnu8cEVM0GngofWFA-zVBOzSVcNPF0i1IKiQ5WRQHEeBy49AvX2WlS33UOzcv4fUB3J_Ht0kEAkw",
-      "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSXmo_6yAlz4u-k0Yz6fkX08omsy1FQIW98gWeGobumzj6v81YAKDhdYdH1KLUGSGYPYDaA0uvf_exFQT7G3wLS-f0ch5BefAsmRrL6rLQLln6VUlWib8d0BH8"
+      "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQpzVE9-ZfvD5jVDfz-Fs9hDFDIgQiTIk8GKEltjGM_H8kzfpgWSxQ0s38y0GzcVC94qKW5XlaXmGfuyikElKNAgo79xFZ9MXkkRCKhpy0u3oypYR1I9gzxc_s",
+      "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSPqwLJu7H-5fYyv6txT0YCh7smpEswgbfXynhUWksT372GeZmPieyuOlZJ9W2LsSeX22b2ZOyOAEK_e5ecEdicLROmcagqK-H9F3u58xfdwfI-csdSImMnwpE",
+      "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQ_FlklpRnn00ktDIGzW_Ck0LDobPa9vUv3vIbKaDilvFOXJJORr_sSAK3S8VAPGKFd2uCIN8VArR-MXZlQt7XHWQRzDhw3scGCdx5DgGz4oq-uoF9NlSVcbx4",
+      "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQ6bLtba82OmIdkkNOiqzUWsSUjDjW05RH_fF3ecl0c57NNphg9y98fodZp29BdNICLupz2PJWR5N061dcm1hzUO7LLsivozDyHDYbN3z9D8cP2cJVwtAAOZw"
 
     ],
-    description: "Elite Kicks's first lifestyle Max 270 brings you style, comfort, and big attitude.",
+    description: "Step into sophistication with the Elite Kicks Executive Gloss Derby — a polished black lace-up designed for sharp dressers and bold impressions. Crafted with high-shine synthetic leather and clean stitch detailing, these shoes offer a sleek silhouette perfect for boardrooms, black-tie events, or upscale evenings out.The cushioned insole ensures day-long comfort, while the tapered toe and durable sole deliver both style and structure. Whether paired with a suit or dressed down with chinos, this shoe is built to impress.",
     brand: "Elite Kicks",
     price: 160,
     isAccessory: false
@@ -20,11 +21,14 @@ const products = [
   {
     id: 2,
     name: "Ultraboost 22",
-    preview: "https://www.shooos.com/media/catalog/product/cache/2/image/1350x778/9df78eab33525d08d6e5fb8d27136e95/a/d/adidas-ultraboost-22-w-gx55911.jpg",
+    preview: "https://m.media-amazon.com/images/I/51WpZbC4dsL._AC_SY695_.jpg",
     photos: [
-      "https://www.shooos.com/media/catalog/product/cache/2/image/1350x778/9df78eab33525d08d6e5fb8d27136e95/a/d/adidas-ultraboost-22-w-gx55911.jpg"
+      "https://m.media-amazon.com/images/I/51WpZbC4dsL._AC_SY695_.jpg",
+      "https://m.media-amazon.com/images/I/61eBo6KD9OL._AC_SY695_.jpg",
+      "https://m.media-amazon.com/images/I/61fog69MaRL._AC_SY695_.jpg",
+      "https://m.media-amazon.com/images/I/61N4DXxZdFL._AC_SY695_.jpg"
     ],
-    description: "Responsive Boost cushioning and a sock-like upper crafted from recycled materials.",
+    description: "Timeless charm meets modern craftsmanship in the Elite Kicks Oxford Brogue Classic. Designed with intricate perforated detailing and elegant wingtip styling, this lace-up dress shoe is perfect for refined professionals and style-conscious gentlemen. Made with polished synthetic leather and a low stacked heel, it delivers a sharp silhouette and all-day comfort — whether you're in the office, at a wedding, or commanding the boardroom.",
     brand: "Elite Kicks",
     price: 190,
     isAccessory: false
@@ -32,14 +36,13 @@ const products = [
   {
     id: 3,
     name: "RS-X3",
-    preview: "https://cdn-images.farfetch-contents.com/18/06/94/78/18069478_38511887_2048.jpg",
+    preview: "https://giovannifootwear.com/wp-content/uploads/2020/10/product-image-1423866123.jpg",
     photos: [
-      "https://cdn-images.farfetch-contents.com/18/06/94/78/18069478_38511887_2048.jpg",
-      "https://cdn-images.farfetch-contents.com/18/06/94/78/18069478_38511880_2048.jpg",
-      "https://cdn-images.farfetch-contents.com/18/06/94/78/18069478_38511891_2048.jpg",
-      "https://cdn-images.farfetch-contents.com/18/06/94/78/18069478_38511885_2048.jpg"
+      "https://giovannifootwear.com/wp-content/uploads/2020/10/product-image-1423866123.jpg",
+      "https://giovannifootwear.com/wp-content/uploads/2020/10/product-image-1423866127.jpg",
+      "https://giovannifootwear.com/wp-content/uploads/2020/10/product-image-1021788423.jpg",
     ],
-    description: "Bold and retro-inspired design with modern-day chunkiness.",
+    description: "Make a bold, effortless statement with the Elite Kicks Vintage Tassel Loafers — a refined slip-on silhouette that merges heritage design with modern comfort. Crafted in rich, burnished brown leather and finished with hand-stitched detailing and twin tassels, these loafers are perfect for days when you want to dress sharp without laces. Ideal for semi-formal events, evening outings, or even a confident office look, this pair delivers elegance with edge — pairing perfectly with chinos, trousers, or rolled-up jeans.",
     brand: "Elite Kicks",
     price: 110,
     isAccessory: false
@@ -47,13 +50,15 @@ const products = [
   {
     id: 4,
     name: "574",
-    preview: "https://nb.scene7.com/is/image/NB/ml574evw_nb_02_i?$pdpflexf2$&wid=440&hei=440",
+    preview: "https://m.media-amazon.com/images/I/61yipaox4+L._AC_SY695_.jpg",
     photos: [
-      "https://nb.scene7.com/is/image/NB/ml574evw_nb_02_i?$pdpflexf2$&wid=440&hei=440",
-      "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQQa0hGbpjwq5bFz41VQm-4KAyQ5NJXVrQq0HbKDo6laM2aF45FZLF9uYq0jgwwNpiiNH5pK-OHM_VISwX1YiKog90V6K2p_WY8USftPnpSV9spMHLAysph",
-      "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSjItxB9cf5581x4wXX8eeaOlFim-quWFovsDqm1EtYyuReyqlFanLw5CI8502nRBmiV5nefS9277SaAPDF-cx_9ztenveJdqemQ0VPHHTVA2mr117mvMGr"
+      "https://m.media-amazon.com/images/I/61yipaox4+L._AC_SY695_.jpg",
+      "https://m.media-amazon.com/images/I/71Ba4hFv5gL._AC_SY695_.jpg",
+      "https://m.media-amazon.com/images/I/714plbtgWHL._AC_SY695_.jpg",
+      "http://m.media-amazon.com/images/I/71Agqi7TNBL._AC_SY695_.jpg",
+      "https://m.media-amazon.com/images/I/71Nw46O73fL._AC_SY695_.jpg"
     ],
-    description: "Classic design pairs perfectly with almost any outfit.",
+    description: "Meet the Elite Kicks Urban Combat Derby — where classic derby structure meets bold, street-style attitude. Built with a matte black leather finish and grounded by a thick, lugged sole, this pair is made for those who walk with confidence and edge. Whether you're heading to a gig, styling an all-black fit, or just need a shoe that doesn't mess around, this derby gets the job done — durable, unapologetic, and endlessly versatile.",
     brand: "Elite Kicks",
     price: 85,
     isAccessory: false
@@ -61,13 +66,13 @@ const products = [
   {
     id: 5,
     name: "Chuck Taylor All Star",
-    preview: "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSCZ0V_XNylusfW-ef31PNbPMPUbwE_wVNb13baBZmJ-kDhOvjXCbnfw9VZIC1oDdfideWcFAC05nNz9DoxjJzl8BsJvcl6mANfHc95CqYOpO_CLl7462TODQ",
+    preview: "https://m.media-amazon.com/images/I/61cfBH0kkyL._AC_SY695_.jpg",
     photos: [
-      "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSCZ0V_XNylusfW-ef31PNbPMPUbwE_wVNb13baBZmJ-kDhOvjXCbnfw9VZIC1oDdfideWcFAC05nNz9DoxjJzl8BsJvcl6mANfHc95CqYOpO_CLl7462TODQ",
-      "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRoB8BK5C01ZwAEOy4ok9z6xxw-mJMqgaUz2llLSR25KYbTAB4GGSGXlI1V129AaSJ8FLUs-0oPzI6_SQXm5Iukuy2WVFEI-0XycyiWahmg-JFu6AiTXLm4",
-      ""
+      "https://m.media-amazon.com/images/I/61cfBH0kkyL._AC_SY695_.jpg",
+      "https://m.media-amazon.com/images/I/61ZNKAIQ8mL._AC_SY695_.jpg",
+      "https://m.media-amazon.com/images/I/61kxmKY9wXL._AC_SY695_.jpg"
     ],
-    description: "The most iconic and timeless silhouette.",
+    description: "Elevate your everyday elegance with the Elite Kicks Classic Block Heels — designed for women who blend confidence with comfort. With a clean rounded toe, smooth black finish, and easy slip-on fit, these heels are your go-to for everything from office hours to evening outings.",
     brand: "Elite Kicks",
     price: 65,
     isAccessory: false
